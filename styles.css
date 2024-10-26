@@ -38,9 +38,11 @@ ul {
 li {
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     border-radius: 30px;
+    background-color: #ffc1a0;
+    border:2.5px solid #FE9c7f
 }
 
 li:hover {
@@ -264,3 +266,113 @@ footer p {
     margin-left: auto;
     margin-right: auto;
 }
+
+    /* Container for the checkout form */
+    .container_checkout {
+        /* Set a maximum width for the container */
+        max-width: 600px;
+        /* Center the container by using auto margin */
+        margin: 50px auto;
+        /* Add padding inside the container */
+        padding: 20px;
+        /* White background color for readability */
+        background-color: #fff;
+        /* Rounded corners */
+        border-radius: 8px;
+        /* Slight shadow for a subtle, elevated effect */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header styles */
+    h2 {
+        /* Center the header text */
+        text-align: center;
+        /* Darker color for header text */
+        color: #333;
+    }
+
+    /* Style for each form group (input field with label) */
+    .form-group {
+        /* Space between each form group */
+        margin-bottom: 15px;
+    }
+
+    /* Style for the labels in each form group */
+    .form-group label {
+        /* Display each label as a block */
+        display: block;
+        /* Bold font for labels */
+        font-weight: bold;
+        /* Small space below each label */
+        margin-bottom: 5px;
+    }
+
+    /* Styles for inputs and dropdowns in the form group */
+    .form-group input,
+    .form-group select {
+        /* Full width for easy input */
+        width: 100%;
+        /* Padding inside input fields */
+        padding: 10px;
+        /* Light border for input fields */
+        border: 1px solid #ddd;
+        /* Rounded corners for input fields */
+        border-radius: 5px;
+    }
+
+    /* Order summary styles */
+    .order-summary {
+        /* Padding within the order summary */
+        padding: 10px;
+        /* Divider at the top of the order summary */
+        border-top: 1px solid #ddd;
+        /* Space above the order summary */
+        margin-top: 20px;
+    }
+
+    /* Header for order summary section */
+    .order-summary h3 {
+        /* Remove margin for a tighter layout */
+        margin: 0;
+        /* Padding below the header */
+        padding-bottom: 10px;
+        /* Divider below the header */
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* Total price styles in the order summary */
+    .order-summary .total {
+        /* Slightly larger font for emphasis */
+        font-size: 1.2em;
+        /* Darker text color for readability */
+        color: #333;
+        /* Right-align the total price */
+        text-align: right;
+    }
+
+    /* Styles for the checkout button */
+    .checkout-btn {
+        /* Full-width button */
+        width: 100%;
+        /* Padding for a larger clickable area */
+        padding: 15px;
+        /* Green background color for checkout action */
+        background-color: #ffc1a0;
+        /* White text on the button */
+        color: #fff;
+        /* Remove border */
+        border: none;
+        /* Rounded corners for a softer look */
+        border-radius: 5px;
+        /* Larger font for readability */
+        font-size: 1.1em;
+        /* Pointer cursor to indicate it's clickable */
+        cursor: pointer;
+    }
+
+    /* Hover effect for the checkout button */
+    .checkout-btn:hover {
+        
+        background-color: #FE9c7f;
+    }
+ 
