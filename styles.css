@@ -128,7 +128,7 @@ p {
 
 }
 
-
+/*styling the homepage images*/
 figcaption {
     font-size: 1em;
     background-color: #FED49A;
@@ -195,8 +195,7 @@ figcaption {
 
 }
 
-
-
+/*Styling the contact page*/
 .contactcontainer {
     width: 80%;
     margin: auto;
