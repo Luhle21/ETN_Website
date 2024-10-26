@@ -375,4 +375,17 @@ footer p {
         
         background-color: #FE9c7f;
     }
- 
+  /* Style for add to cart buttons */
+
+  .add-btn {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ffc1a0;
+    border:2.5px solid #FE9c7f
+  }
+/* Hover effect for the add to cart button */
+  .add-btn:hover {
+    background-color: #FE9c7f;
+  }
