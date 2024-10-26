@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    
+    <div id="wrapper">
+        <header>
+            <img src="_images/logo.png" alt="logo"/>
+            <nav id="topLinks">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="weekcourse.html">Six-week Courses</a></li>
+                  <li><a href="monthcourses.html">Six-month Courses</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li class="currentPage">Checkout</li>
+                </ul>
+              </nav>
+        </header>
+        <hr/>
+
+        <main>
+            <div id="Checkoutpage">
+                <h1>Checkout</h1>
+                <div id="checkoutItems"></div> <!-- Container for courses -->
+                <div id="totalAmount"></div>    <!-- Container for total amount -->
+                <div id="discountText"></div>    <!-- Container for discount message -->
+                <button onclick="clearCart()">Pay</button>
+            </div>
+        </main>
+
+        <footer>
+            <nav id="bottomLinks">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="weekcourse.html">Six-week Courses</a></li>
+                  <li><a href="monthcourses.html">Six-month Courses</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li class="currentPage">Checkout</li>
+                </ul>
+              </nav>
+              <p>&copy; Empowering the nation | Powered by "Introverts" Web Hosting</p>
+        </footer>    
+    </div>
+    <script src="checkout.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet"type="text/css" />
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <Header>
+            <img 
+            src="_images/logo.png" 
+            alt="logo"/>
+
+            <nav id="topLinks">
+                <ul>
+                  <!--navigation links at the top of the page-->
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="weekcourse.html">Six-Week Courses</a></li>
+                  <li class="currentPage"> Six-Month Courses</li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+              </nav>
+        </Header>
+        <hr/>
+
+        <main id="Weekpage">
+
+          <h1>Six-Month Courses</h1>
+          <div class="row">
+            <div class="column3">
+              <div class="content">
+                <img src="_images/firstaid.png" alt="FirstAid" style="width:50%">
+                <h3>FirstAid</h3>
+                <p>To provide first aid awareness and basic life support
+                </p>
+                <p>
+                  Content:
+                  Wounds and bleeding
+                  Burns and fractures
+                  Emergency scene management
+                  Cardio-Pulmonary Resuscitation (CPR)
+                  Respiratory distress e.g., Choking, blocked airway
+                </p>
+                <button onclick="addToCart('First Aid', 1500, this)">Add to Cart</button>
+              </div>
+            </div>
+            <div class="column3">
+              <div class="content">
+                <img src="_images/sewing.png" alt="Sewing" style="width:50%">
+                <h3>Sewing</h3>
+                <p> Purpose: To provide alterations and new garment tailoring services 
+                </p>
+                <p>
+                  Content:
+                  Types of stitches
+                   Threading a sewing machine,
+                   Sewing buttons, zips, hems and seams
+                   Alterations
+                  Designing and sewing new garments
+                </p>
+              </div>
+              <button onclick="addToCart('Sewing', 1500, this)">Add to Cart</button>
+            </div>
+            <div class="column3">
+              <div class="content">
+                <img src="_images/landscaping.png" alt="Landscaping" style="width: 50%">
+                <h3>Landscaping</h3>
+                <p>
+                  Purpose: To provide landscaping services for new and established gardens. 
+                </p>
+                <p>
+                  Content:
+                   Indigenous and exotic plants and trees
+                   Fixed structures (fountains, statues, benches, tables, built-in braai)
+                   Balancing of plants and trees in a garden
+                   Aesthetics of plant shapes and colours
+                   Garden layout
+                </p>
+              </div>
+              <button onclick="addToCart('Landscaping', 1500, this)">Add to Cart</button>
+            </div>
+            <div class="column3">
+              <div class="content">
+                <img src="_images/lifeskills.png" alt="LifeSkills" style="width:50%">
+                <h3>Life Skills</h3>
+                <p>Purpose: To provide skills to navigate basic life necessities</p>
+                <p>
+                  Content:
+                   Opening a bank account
+                   Basic labour law (know your rights)
+                   Basic reading and writing literacy 
+                  Basic numeric literacy
+                </p>
+                <button onclick="addToCart('Life Skills', 1500, this)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- END MAIN -->          
+          </div>
+            
+        </main>
+
+        <footer>
+            <nav id="bottomLinks">
+                <!--navigation links at the botton of the page-->
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="weekcourse.html">Six-Week Courses</a></li>
+                  <li class="currentPage">Six-monthCourses</li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+              </nav>
+              <p>
+                &copy; Empowering the nation | Powered by "Introverts" Web Hosting
+              </p>
+        </footer>
+      </div>
+</body>
+</html>

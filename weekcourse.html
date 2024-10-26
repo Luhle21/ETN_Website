@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet"type="text/css" />
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <Header>
+            <img 
+            src="_images/logo.png" 
+            alt="logo"/>
+
+            <nav id="topLinks">
+                <ul>
+                  <!--navigation links at the top of the page-->
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li class="currentPage"> Six-week Courses</li>
+                  <li><a href="monthcourses.html">Six-month Courses</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+              </nav>
+        </Header>
+        <hr/>
+
+        <main id="Weekpage">
+          <h1>Six-Week Courses</h1>
+          <div class="row">
+            <div class="column3">
+              <div class="content">
+                <img src="_images/child minding.png" alt="Child Minding" style="width:50%">
+                <h3>Child Minding</h3> 
+                <p>
+                  Purpose: To provide basic child and baby care
+                </p>
+                <p>
+                  Content:
+                  birth to six-month old baby needs
+                  seven-month to one year old needs
+                  Toddler needs
+                  Educational toys
+                </p>
+                <button onclick="addToCart('Child Minding', 750, this)">Add to Cart</button>
+              </div>
+            </div>
+            <div class="column3">
+              <div class="content">
+                <img src="_images/cooking.png" alt="Cooking" style="width:50%">
+                <h3>Cooking</h3>
+                <p> Purpose: To provide alterations and new garment tailoring services 
+                </p>
+                <p>
+                  Content:
+                  Nutritional requirements for a healthy body
+                  Types of protein, carbohydrates and vegetables
+                  Planning meals
+                  Preparation and cooking of meals                  
+                </p>
+                <button onclick="addToCart('Cooking', 750, this)">Add to Cart</button>
+              </div>
+            </div>
+            <div class="column3">
+              <div class="content">
+                <img src="_images/gardenmaintance.png" alt="gardenmaintance" style="width: 50%">
+                <h3>Garden maintance</h3>
+                <p>
+                  Purpose: To provide basic knowledge of watering, pruning and planting in a domestic garden.
+                </p>
+                <p>
+                  Content:
+                  Water restrictions and the watering requirements of indigenous and exotic plants
+                  Pruning and propagation of plants
+                  Planting techniques for different plant types
+                </p>
+                <button onclick="addToCart('Garden Maintance', 750, this)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- END MAIN -->          
+          </div>
+
+        </main>
+
+        <footer>
+            <nav id="bottomLinks">
+                <!--navigation links at the botton of the page-->
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li class="currentPage">Six-week Courses</li>
+                  <li><a href="monthcourses.html">Six-month Courses</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+              </nav>
+              <p>
+                &copy; Empowering the nation | Powered by "Introverts" Web Hosting
+              </p>
+        </footer>
+    
+</body>
+</html>
