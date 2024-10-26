@@ -29,72 +29,11 @@
             <div id="Checkoutpage">
                 <h1>Checkout</h1>
                 
-              <style>
-                    body {
-                        font-family: Arial, sans-serif;
-                        margin: 0;
-                        padding: 0;
-                    }
-                    .container {
-                        max-width: 600px;
-                        margin: 50px auto;
-                        padding: 20px;
-                        background-color: #fff;
-                        border-radius: 8px;
-                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                    }
-                    h2 {
-                        text-align: center;
-                        color: #333;
-                    }
-                    .form-group {
-                        margin-bottom: 15px;
-                    }
-                    .form-group label {
-                        display: block;
-                        font-weight: bold;
-                        margin-bottom: 5px;
-                    }
-                    .form-group input,
-                    .form-group select {
-                        width: 100%;
-                        padding: 10px;
-                        border: 1px solid #ddd;
-                        border-radius: 5px;
-                    }
-                    .order-summary {
-                        padding: 10px;
-                        border-top: 1px solid #ddd;
-                        margin-top: 20px;
-                    }
-                    .order-summary h3 {
-                        margin: 0;
-                        padding-bottom: 10px;
-                        border-bottom: 1px solid #ddd;
-                    }
-                    .order-summary .total {
-                        font-size: 1.2em;
-                        color: #333;
-                        text-align: right;
-                    }
-                    .checkout-btn {
-                        width: 100%;
-                        padding: 15px;
-                        background-color: #28a745;
-                        color: #fff;
-                        border: none;
-                        border-radius: 5px;
-                        font-size: 1.1em;
-                        cursor: pointer;
-                    }
-                    .checkout-btn:hover {
-                        background-color: #218838;
-                    }
-                </style>
+              
             </head>
             <body>
             
-            <div class="container">
+            <div class="container_checkout">
                
                 <form action="/submit-order" method="post">
                     <!-- User Information -->
@@ -118,7 +57,7 @@
                 <div id="checkoutItems"></div> <!-- Container for courses -->
                 <div id="totalAmount"></div>    <!-- Container for total amount -->
                 <div id="discountText"></div>    <!-- Container for discount message -->
-                <button onclick="clearCart()">Pay</button>
+                <button onclick="clearCart()" class="checkout-btn" >Checkout</button>
             </div>
         </main>
 
